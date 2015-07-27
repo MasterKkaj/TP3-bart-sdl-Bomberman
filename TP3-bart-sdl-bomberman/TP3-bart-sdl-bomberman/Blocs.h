@@ -7,6 +7,9 @@ class Blocs :
 {
 public:
 	Blocs();
+	Blocs(std::string path);
 	~Blocs();
+
+	void Update();
 };
 
