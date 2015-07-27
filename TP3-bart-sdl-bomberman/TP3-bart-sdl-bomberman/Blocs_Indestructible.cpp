@@ -2,6 +2,7 @@
 
 
 Blocs_Indestructible::Blocs_Indestructible()
+	:Blocs(BLOC_INDESTRUCTIBLE_PATH)
 {
 }
 

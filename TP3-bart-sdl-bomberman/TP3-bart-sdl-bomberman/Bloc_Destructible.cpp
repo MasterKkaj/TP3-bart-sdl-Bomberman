@@ -2,6 +2,7 @@
 
 
 Bloc_Destructible::Bloc_Destructible()
+	:Blocs(BLOC_DESTRUCTIBLE_PATH)
 {
 }
 

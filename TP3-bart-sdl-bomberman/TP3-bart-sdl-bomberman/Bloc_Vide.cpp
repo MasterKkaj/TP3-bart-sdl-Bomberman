@@ -2,6 +2,7 @@
 
 
 Bloc_Vide::Bloc_Vide()
+	:Blocs(BLOC_VIDE_PATH)
 {
 }
 
