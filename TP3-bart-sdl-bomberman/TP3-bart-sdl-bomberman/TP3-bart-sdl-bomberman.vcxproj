@@ -69,12 +69,26 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Blocs.cpp" />
+    <ClCompile Include="Blocs_Indestructible.cpp" />
+    <ClCompile Include="Bloc_Bomb.cpp" />
+    <ClCompile Include="Bloc_Destructible.cpp" />
+    <ClCompile Include="Bloc_Fire.cpp" />
+    <ClCompile Include="Bloc_Vide.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\bart-sdl-engine-e15\src\Engine\Engine.vcxproj">
       <Project>{d29c55c5-0271-4263-bfba-75ac0a2a25cb}</Project>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Blocs.h" />
+    <ClInclude Include="Blocs_Indestructible.h" />
+    <ClInclude Include="Bloc_Bomb.h" />
+    <ClInclude Include="Bloc_Destructible.h" />
+    <ClInclude Include="Bloc_Fire.h" />
+    <ClInclude Include="Bloc_Vide.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
