@@ -75,7 +75,10 @@
     <ClCompile Include="Bloc_Destructible.cpp" />
     <ClCompile Include="Bloc_Fire.cpp" />
     <ClCompile Include="Bloc_Vide.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Grid.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Player.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\bart-sdl-engine-e15\src\Engine\Engine.vcxproj">
@@ -89,6 +92,9 @@
     <ClInclude Include="Bloc_Destructible.h" />
     <ClInclude Include="Bloc_Fire.h" />
     <ClInclude Include="Bloc_Vide.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Grid.h" />
+    <ClInclude Include="Player.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
