@@ -5,7 +5,6 @@ class Bloc_Fire :
 	public Blocs
 {
 public:
-
 	Bloc_Fire();
 	Bloc_Fire(std::string path);
 	~Bloc_Fire();

@@ -461,7 +461,7 @@ Game::Game()
 	bombs.push_back(bomb);
 	
 		//Blocs de feu
-	//Bloc_Fire* fireBall = new Bloc_Fire("Images/FireBall.png");
+	//dBloc_Fire* fireBall = new Bloc_Fire("Images/FireBall.png");
 	//fireBall->SetPosition(bomb->GetX(), bomb->GetY());
 	//fires.push_back(fireBall);
 	//

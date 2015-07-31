@@ -1,5 +1,6 @@
 #include "Engine.h"
 #include "Game.h"
+
 int main(int argc, char* argv[]) 
 {
 	Engine::GetInstance()->Init(DEFAULT_WINDOW_WIDTH, DEFAULT_WINDOW_HEIGHT);
@@ -8,7 +9,5 @@ int main(int argc, char* argv[])
 	
 	Engine::GetInstance()->Start();
 
-	delete game;
-	
 	return 0;
 }

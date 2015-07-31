@@ -2,6 +2,7 @@
 
 Blocs::Blocs()
 {
+
 }
 
 Blocs::Blocs(std::string path)
