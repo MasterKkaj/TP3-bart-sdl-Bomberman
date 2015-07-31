@@ -7,5 +7,8 @@ class Bloc_Vide :
 public:
 	Bloc_Vide();
 	~Bloc_Vide();
+
+private:
+	static std::string BLOC_VIDE_PATH;
 };
 

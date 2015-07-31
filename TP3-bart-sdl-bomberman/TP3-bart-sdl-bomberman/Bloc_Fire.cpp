@@ -12,6 +12,11 @@ Bloc_Fire::Bloc_Fire()
 {
 }
 
+Bloc_Fire::Bloc_Fire(std::string path)
+{
+	SetTexture(&path);
+}
+
 Bloc_Fire::~Bloc_Fire()
 {
 
