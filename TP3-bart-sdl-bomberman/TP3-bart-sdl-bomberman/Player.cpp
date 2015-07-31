@@ -5,7 +5,6 @@ std::string Player::PLAYER2_PATH = "Images/Player2_Front.png";
 
 const float Player::speed = 10.0f;
 
-
 Player::Player()
 	: Sprite(PLAYER_PATH)
 	, playerID(0)
