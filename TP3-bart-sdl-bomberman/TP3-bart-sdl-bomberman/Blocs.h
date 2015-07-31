@@ -11,5 +11,8 @@ public:
 	~Blocs();
 
 	void Update();
+
+private:
+	
 };
 
