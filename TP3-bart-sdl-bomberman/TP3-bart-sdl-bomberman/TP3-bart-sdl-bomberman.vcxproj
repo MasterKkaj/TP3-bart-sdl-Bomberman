@@ -39,8 +39,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>..\..\..\bart-sdl-engine-e15\dependencies\SDL2_image-2.0.0\include;..\..\..\bart-sdl-engine-e15\dependencies\SDL2-2.0.3\include;..\..\..\bart-sdl-engine-e15\src\Engine;$(IncludePath)</IncludePath>
-    <LibraryPath>..\..\..\bart-sdl-engine-e15\dependencies\SDL2_image-2.0.0\lib\x86;..\..\..\bart-sdl-engine-e15\dependencies\SDL2-2.0.3\lib\x86;$(LibraryPath)</LibraryPath>
+    <IncludePath>..\..\..\bart-sdl-engine-e15\dependencies\SDL2_image-2.0.0\include;..\..\..\bart-sdl-engine-e15\dependencies\SDL2-2.0.3\include;..\..\..\bart-sdl-engine-e15\src\Engine;..\..\..\bart-sdl-engine-e15\dependencies\SDL2_ttf-2.0.12\include;..\..\..\bart-sdl-engine-e15\dependencies\SDL2_mixer-2.0.0\include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\..\..\bart-sdl-engine-e15\dependencies\SDL2_image-2.0.0\lib\x86;..\..\..\bart-sdl-engine-e15\dependencies\SDL2-2.0.3\lib\x86;..\..\..\bart-sdl-engine-e15\dependencies\SDL2_ttf-2.0.12\lib\x86;..\..\..\bart-sdl-engine-e15\dependencies\SDL2_mixer-2.0.0\lib\x86;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -50,7 +50,7 @@
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>SDL2main.lib;SDL2.lib;SDL2_image.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>SDL2main.lib;SDL2.lib;SDL2_image.lib;SDL2_mixer.lib;SDL2_ttf.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <SubSystem>Console</SubSystem>
     </Link>
   </ItemDefinitionGroup>
@@ -75,7 +75,9 @@
     <ClCompile Include="Bloc_Destructible.cpp" />
     <ClCompile Include="Bloc_Fire.cpp" />
     <ClCompile Include="Bloc_Vide.cpp" />
+    <ClCompile Include="Grid.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Player.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\bart-sdl-engine-e15\src\Engine\Engine.vcxproj">
@@ -89,6 +91,8 @@
     <ClInclude Include="Bloc_Destructible.h" />
     <ClInclude Include="Bloc_Fire.h" />
     <ClInclude Include="Bloc_Vide.h" />
+    <ClInclude Include="Grid.h" />
+    <ClInclude Include="Player.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
