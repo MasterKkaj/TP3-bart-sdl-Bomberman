@@ -3,6 +3,7 @@
 
 Blocs::Blocs()
 {
+
 }
 
 Blocs::Blocs(std::string path)
@@ -13,6 +14,7 @@ Blocs::Blocs(std::string path)
 
 Blocs::~Blocs()
 {
+
 }
 
 void Blocs::Update()
