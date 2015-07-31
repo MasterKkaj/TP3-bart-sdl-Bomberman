@@ -10,7 +10,7 @@ std::string Bloc_Fire::BLOC_VFIRELANE_PART3_PATH = "Images/VFireLane_Part3.png";
 
 Bloc_Fire::Bloc_Fire()
 {
-	
+
 }
 
 Bloc_Fire::Bloc_Fire(std::string path)

@@ -9,5 +9,7 @@ int main(int argc, char* argv[])
 	
 	Engine::GetInstance()->Start();
 
+	delete game;
+
 	return 0;
 }
